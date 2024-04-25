@@ -21,7 +21,6 @@ public:
     int getSize() {
         return size;
     }
-
     void push(Object obj) {
         stackList.addNode(obj);
         size++;
