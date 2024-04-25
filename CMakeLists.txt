@@ -10,7 +10,7 @@ add_subdirectory(external_libs)
 
 option(BUILD_EXAMPLES "Test files option active..." ON)
 
-#set(BUILD_EXAMPLES OFF) # DISABLE THIS TO TEST WITHIN THE PROJECT
+set(BUILD_EXAMPLES OFF) # DISABLE THIS TO TEST WITHIN THE PROJECT
 
 if (BUILD_EXAMPLES)
     message(STATUS "Building tests...")
