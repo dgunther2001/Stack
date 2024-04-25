@@ -1,3 +1,6 @@
+#ifndef STACK_H
+#define STACK_H
+
 #include "../external_libs/Linked_List/include/linked_list/linked_list.h"
 #include <iostream>
 #include <string>
@@ -128,3 +131,5 @@ public:
 
 };
 }
+
+#endif
