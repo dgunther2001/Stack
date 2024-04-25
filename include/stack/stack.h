@@ -6,10 +6,11 @@
 template <typename Object>
 class Stack {
 private:
-    Linked_List<Object> stackList;
     int size;
 
 public:
+    Linked_List<Object> stackList;
+
     Stack() : stackList() {
         size = 0;
     }
