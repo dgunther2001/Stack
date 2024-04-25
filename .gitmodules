@@ -1,0 +1,3 @@
+[submodule "external_libs/Linked_List"]
+	path = external_libs/Linked_List
+	url = https://github.com/dgunther2001/Linked_List
