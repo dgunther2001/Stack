@@ -6,7 +6,6 @@
 #include <string>
 #include <iomanip>
 
-namespace stack {
 template <typename Object>
 class Stack {
 private:
@@ -130,6 +129,6 @@ public:
 
 
 };
-}
+
 
 #endif
